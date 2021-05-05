@@ -1,0 +1,59 @@
+Time : 20:07:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_created' in 'field list'
+Raw SQL : insert into ui  (nama,umur,alamat,gaji,cat_created,cat_modified)  values ('santi','28','belilas','18000000','2021-05-04 20:07:59','2021-05-04 20:07:59')
+
+Time : 18:11:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_created' in 'field list'
+Raw SQL : insert into ui  (nama,umur,alamat,gaji,cat_created,cat_modified)  values ('tirin','50','pt mega','12000000','2021-05-04 18:11:39','2021-05-04 18:11:39')
+
+Time : 15:39:09
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_modified' in 'field list'
+Raw SQL : update product set  nama='santi' ,  umur='29' ,  alamat='pt mega' ,  gaji='pt mega' ,  cat_modified='2021-05-04 15:39:09'  where id=5
+
+Time : 15:32:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_modified' in 'field list'
+Raw SQL : update product set  nama='santi' ,  umur='34' ,  alamat='ujung batu' ,  gaji='ujung batu' ,  cat_modified='2021-05-04 15:32:40'  where id=5
+
+Time : 15:21:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_modified' in 'field list'
+Raw SQL : update product set  nama='santi' ,  umur='30' ,  alamat='ujung batu' ,  gaji='ujung batu' ,  cat_modified='2021-05-04 15:21:30'  where id=4
+
+Time : 15:20:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_modified' in 'field list'
+Raw SQL : update product set  nama='santi' ,  umur='36' ,  alamat='' ,  gaji='' ,  cat_modified='2021-05-04 15:20:03'  where id=4
+
+Time : 15:19:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_modified' in 'field list'
+Raw SQL : update product set  nama='santi' ,  umur='30' ,  alamat='' ,  gaji='' ,  cat_modified='2021-05-04 15:19:26'  where id=4
+
+Time : 10:28:18
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_toko.product' doesn't exist
+Raw SQL : select * from product
+
+Time : 09:47:56
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=1
+
+Time : 09:26:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
+
+Time : 09:26:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
+
+Time : 09:26:41
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
+
+Time : 09:25:38
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
+
+Time : 09:25:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
+
+Time : 09:23:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_id' in 'where clause'
+Raw SQL : select * from ui where cat_id=4
